@@ -545,7 +545,7 @@ services:
       - api
       - web
     ports:
-      - "80:80"
+      - "90:80"
       #- "443:443"
 # notice: if you use windows-wsl2, postgres may not work properly due to the ntfs issue.you can use volumes to mount the data directory to the host.
 # volumes:
